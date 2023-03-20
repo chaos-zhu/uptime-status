@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env PORT=30000 react-scripts start",
     "build": "react-scripts build"
   },
   "dependencies": {
@@ -26,5 +26,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
